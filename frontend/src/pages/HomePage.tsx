@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "@/redux/store";
 import { fetchUserDetails } from "@/redux/feature/userSlice";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
